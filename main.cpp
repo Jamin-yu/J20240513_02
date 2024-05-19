@@ -4,9 +4,13 @@ using namespace std;
 
 int main()
 {
-	for (int count = 1; count <=5; ++count)
+	for (int Line = 1; Line <=5; ++Line)
 	{ 
-		cout << "*";
+		for (int count = 1; count <=5; ++count)
+		{ 
+			cout << "*";
+		}
+		cout << endl;
 	}
 	return 0;
 }
