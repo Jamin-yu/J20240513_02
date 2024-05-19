@@ -4,8 +4,16 @@ using namespace std;
 
 int main()
 {
-	for (int Line = 1; Line <=5; ++Line)
+	int N = 0;
+	cin >> N;
+
+	for (int Line = 1; Line <=N; ++Line)
 	{ 
+		for (int count = 1; count <= N-Line; ++count)
+		{
+			cout << " ";
+		}
+
 		for (int count = 1; count <= Line; ++count)
 		{ 
 			cout << "*";
